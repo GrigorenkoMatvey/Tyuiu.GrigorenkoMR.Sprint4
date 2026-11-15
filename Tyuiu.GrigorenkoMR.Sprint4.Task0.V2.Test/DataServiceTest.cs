@@ -10,11 +10,9 @@ namespace Tyuiu.GrigorenkoMR.Sprint3.Task7.V2.Test
         {
             DataService ds = new DataService();
             int[] array = { 5, 3, 7, 1, 3, 9, 8, 7, 9, 4 };
+            int res = ds.GetSumOddArrEl(array);
 
-            int expected = 44; // 5+3+7+1+3+9+7+9
-            int actual = ds.GetSumOddArrEl(array);
-
-            Assert.AreEqual(expected, actual);
+            Assert.AreEqual(44, res);
         }
     }
 }

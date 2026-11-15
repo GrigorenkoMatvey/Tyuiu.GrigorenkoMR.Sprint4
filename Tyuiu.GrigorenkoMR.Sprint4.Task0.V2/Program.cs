@@ -26,7 +26,6 @@ namespace Tyuiu.GrigorenkoMR.Sprint4.Task0.V2
 
             int[] array = { 5, 3, 7, 1, 3, 9, 8, 7, 9, 4 };
 
-            // Выводим массив для наглядности
             Console.Write("Массив: ");
             Console.WriteLine(string.Join(", ", array));
 
@@ -34,7 +33,6 @@ namespace Tyuiu.GrigorenkoMR.Sprint4.Task0.V2
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            // Вызываем метод из библиотеки
             int sum = ds.GetSumOddArrEl(array);
             Console.WriteLine("Сумма нечетных элементов = " + sum);
 

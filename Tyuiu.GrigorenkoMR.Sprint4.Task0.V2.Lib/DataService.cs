@@ -7,11 +7,11 @@ namespace Tyuiu.GrigorenkoMR.Sprint4.Task0.V2.Lib
         public int GetSumOddArrEl(int[] array)
         {
             int sum = 0;
-            foreach (int item in array)
+            foreach (int i in array)
             {
-                if (item % 2 != 0)
+                if (i % 2 != 0)
                 {
-                    sum += item;
+                    sum += i;
                 }
             }
             return sum;
