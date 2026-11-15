@@ -10,7 +10,7 @@ namespace Tyuiu.GrigorenkoMR.Sprint4.Task0.V2
             Console.Title = "Спринт #4 | Выполнил: Григоренко М. Р. | ИСПб - 26 - 1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #4                                                               *");
-            Console.WriteLine("* Тема: Одномерные массивы                                                *");
+            Console.WriteLine("* Тема: Одномерные массивы (статический вывод)                                                *");
             Console.WriteLine("* Задание #0                                                              *");
             Console.WriteLine("* Вариант #2                                                              *");
             Console.WriteLine("* Выполнил: Григоренко Матвей Романович | ИСПб - 26 - 1                   *");
