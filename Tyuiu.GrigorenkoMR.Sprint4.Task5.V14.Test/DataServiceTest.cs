@@ -6,7 +6,7 @@ namespace Tyuiu.GrigorenkoMR.Sprint4.Task5.V14.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void ValidCalculate()
+        public void ValidCalc()
         {
             DataService ds = new DataService();
             int[,] mtrx = new int[3, 3] {
