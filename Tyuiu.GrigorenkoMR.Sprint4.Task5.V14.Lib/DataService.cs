@@ -10,17 +10,5 @@ namespace Tyuiu.GrigorenkoMR.Sprint4.Task5.V14.Lib
             int columns = matrix.Length / rows;          
             int count = 0;                               
 
-            for (int i = 0; i < rows; i++)
-            {
-                for (int j = 0; j < columns; j++)
-                {
-                    if (matrix[i, j] > 0)
-                    {
-                        count++;
-                    }
-                }
-            }
-            return count;
-        }
     }
 }
